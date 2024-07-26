@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        .tbone {
+            padding: 7px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .thone {
+            background-color: rgb(255, 10, 87);
+            color: white;
+            letter-spacing: 3px;
+            padding: 5px;
+            font-size: 9px;
+        }
+        .tdbody {
+            padding: 0px 30px;
+            color: grey;
+        }
+        .tdbody a {
+            color: rgb(255, 10, 87);
+            text-decoration: none;
+            font-size: 7px;
+        }
+        .tdbody p {
+            font-size: 7px;
+        }
+        .tdbody b {
+            font-size: 7px;
+        }
+        .thtwo {
+            background-color: rgb(255, 10, 87);
+            color: white;
+            font-size: 5px;
+            padding: 4px;
+        }
+        .thtwo a {
+            color: lime;
+            text-decoration: none;
+            font-size: 6px;
+        }
+    </style>
+</head>
+<body>
+    <table class="tbone" border="0" bgcolor="#e4e4e4">
+        <tr>
+            <td>
+                <table border="0">
+                    <tr>
+                        <th height="2px" class="thone">
+                            [ BUG REPORT ]
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="tdbody" align="center" bgcolor="white">
+                            <b>Dear security team,</b>
+                            <p>Disaat saya melakukan penetrations testing terhadap website anda, 
+                            saya menemukan bug XSS (Cross Site Scripting) di website anda.<br><br>
+                            Bug XSS (Cross Site Scripting) dapat memungkinkan penyerang untuk 
+                            mem-bypass keamanan di sisi klien, mendapatkan informasi sensitif, 
+                            atau menyimpan aplikasi berbahaya.<br><br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+```
+
+Perbaikan yang dilakukan:
+1. Menambahkan atribut `lang="id"` pada tag `<html>` untuk menyatakan bahwa bahasa yang digunakan adalah Bahasa Indonesia.
+2. Menambahkan properti `border-collapse: collapse;` pada elemen `table` untuk menghilangkan jarak antar border pada tabel.
+3. Memperbaiki indentasi untuk meningkatkan keterbacaan kode.
+4. Memperbaiki huruf kapitalisasi dan format kata untuk konsistensi dan keterbacaan.
