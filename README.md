@@ -47,9 +47,9 @@ Skrip ini digunakan untuk membuat laporan bug dengan berbagai jenis kerentanan k
 1. **Memilih Jenis Laporan Bug:**
 
    Skrip meminta pengguna untuk memilih jenis bug yang ingin dilaporkan.
-
-- gambar ()
-
+<p align="center">
+  <img src="https://github.com/Yoga913/CheeatSheet-BugBounty/blob/main/bonuty.jpg" alt="Deskripsi Gambar" width="300">
+</p>
 2. **Mengumpulkan Informasi:**
 
    Setelah memilih jenis bug, skrip akan meminta informasi berikut:
